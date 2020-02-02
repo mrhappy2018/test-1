@@ -201,9 +201,9 @@ class RawTransactionsTest(BitcoinTestFramework):
 
         try:
             self.nodes[2].fundrawtransaction(rawtx, {'changeAddress': 'foobar'})
-            raise AssertionError("Accepted invalid leedcoin address")
+            raise AssertionError("Accepted invalid cotton address")
         except JSONRPCException as e:
-            assert("changeAddress must be a valid leedcoin address" in e.error['message'])
+            assert("changeAddress must be a valid cotton address" in e.error['message'])
 
 
         ############################################################

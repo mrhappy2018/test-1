@@ -8,10 +8,10 @@ Performs the same check as in Test_02 verifying that zPoS forked blocks that sta
 '''
 
 from test_framework.authproxy import JSONRPCException
-from fake_stake.base_test import LeedCoin_FakeStakeTest
+from fake_stake.base_test import cotton_FakeStakeTest
 from time import sleep
 
-class zPoSFakeStakeAccepted(LeedCoin_FakeStakeTest):
+class zPoSFakeStakeAccepted(cotton_FakeStakeTest):
 
 
     def set_test_params(self):

@@ -13,9 +13,9 @@ from time import sleep
 from test_framework.authproxy import JSONRPCException
 from test_framework.util import assert_equal, assert_greater_than
 
-from fake_stake.base_test import LeedCoin_FakeStakeTest
+from fake_stake.base_test import cotton_FakeStakeTest
 
-class zLDCValidCoinSpendTest(LeedCoin_FakeStakeTest):
+class zLDCValidCoinSpendTest(cotton_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the 'valid publicCoinSpend spend' scenario."

@@ -12,9 +12,9 @@ from time import sleep
 
 from test_framework.authproxy import JSONRPCException
 
-from fake_stake.base_test import LeedCoin_FakeStakeTest
+from fake_stake.base_test import cotton_FakeStakeTest
 
-class zPoSFakeStake(LeedCoin_FakeStakeTest):
+class zPoSFakeStake(cotton_FakeStakeTest):
 
     def run_test(self):
         self.description = "Covers the scenario of a zPoS block where the coinstake input is a zerocoin spend of an already spent coin."

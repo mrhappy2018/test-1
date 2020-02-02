@@ -13,9 +13,9 @@ from time import sleep
 from test_framework.authproxy import JSONRPCException
 from test_framework.util import assert_equal, assert_greater_than
 
-from fake_stake.base_test import LeedCoin_FakeStakeTest
+from fake_stake.base_test import cotton_FakeStakeTest
 
-class zLDCwrappedSerialsTest(LeedCoin_FakeStakeTest):
+class zLDCwrappedSerialsTest(cotton_FakeStakeTest):
 
     def run_test(self):
         q = 73829871667027927151400291810255409637272593023945445234219354687881008052707
